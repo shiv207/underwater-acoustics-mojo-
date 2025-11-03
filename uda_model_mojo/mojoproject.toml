@@ -1,0 +1,21 @@
+[project]
+name = "underwater-acoustic-mojo"
+version = "1.0.0"
+description = "Underwater acoustic classification system implemented in Mojo"
+authors = ["Converted from Python/PyTorch implementation"]
+
+[dependencies]
+# Mojo standard library is included by default
+
+# Future dependencies (when available):
+# max = "*"  # MAX Engine for neural network operations
+# audio = "*"  # Audio processing library (when available)
+
+[build]
+# Build configuration
+target = "host"
+optimization = "release"
+
+[tool.mojo]
+# Mojo-specific settings
+version = ">=24.0.0"  # Minimum Mojo version required
